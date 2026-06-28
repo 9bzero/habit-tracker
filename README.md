@@ -1,19 +1,27 @@
-# habit-tracker
+# Habit Tracker
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Daily habit tracker with 7-day grid, streaks, and completion stats
+Track daily habits, build streaks, and visualize your consistency with a GitHub-style heatmap.
 
 ## Features
-- ✅ Check off habits for each day in a 7-day grid
-- 🔥 Streak counter per habit
-- 📊 7-day completion rate
-- 🏷️ Custom icon and color per habit
-- ➕ Add/remove habits
+
+- Add unlimited habits with custom names and icons
+- One-tap daily check-off
+- Streak counter per habit (current + longest)
+- Completion heatmap — last 12 weeks at a glance
+- Weekly and monthly completion rates
+- All data persisted to localStorage — no account needed
+
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
 
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
